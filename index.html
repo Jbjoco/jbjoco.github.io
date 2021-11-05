@@ -1,40 +1,318 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Layout Master</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-  <div class="zone green">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fmisi órarend</title>
 
-    <ul class="main-nav">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
 
-      <li><a href="">About</a></li>
-      <li><a href="">Products</a></li>
-      <li><a href="">Our Team</a></li>
-      <li class="push"><a href="">Contacts</a></li>
+  </head>
+  <body>
+
+    <!-- Flexbox megoldás
+
+    <div class="first-row">
+
+      <ul class="first-row-list">
+        <li class="1-col"><h1>Hétfő</h1></li>
+        <li class="2-col"><h1>Kedd</h1></li>
+        <li class="3-col"><h1>Szerda</h1></li>
+        <li class="4-col"><h1>Csütörtök</h1></li>
+        <li class="5-col"><h1>Péntek</h1><li>
+      </ul>
+
+    </div>
+
+    <div class="first-column">
+
+    <ul class="idopont">
+
+      <li class="one-row">8:00</li>
+      <li class="two-row">9:00
+        Matematikai statisztika Ea+Gy
+      </li>
+      <li class="three-row">10:00</li>
+      <li class="four-row">11:00</li>
+      <li class="five-row">12:00</li>
+      <li class="six-row">13:00</li>
+      <li class="seven-row">14:00</li>
+      <li class="eight-row">15:00</li>
+      <li class="nine-row">16:00</li>
+      <li class="ten-row">17:00</li>
 
     </ul>
 
-  </div>
+    </div>
 
-  <div class="container zone red">Cover!!!</div>
+  -->
+    <!-- Grixbox megoldás -->
 
-  <div class="zone blue grid-wrapper">
+    <section class="table">
 
+        <div class="box1 first-column" id="first-row">
 
-          <div class="box zone"><img src="img/files_2.png" alt=""></div>
-          <div class="box zone"><img src="img/server_2_2.png" alt=""></div>
-          <div class="box zone"><img src="img/monitor_settings_2.png" alt=""></div>
-          <div class="box zone"><img src="img/server_3.png" alt=""></div>
-          <div class="box zone"><img src="img/data_storage_2_2.png" alt=""></div>
-          <div class="box zone"><img src="img/monitor_coding_2.png" alt=""></div>
-          <div class="box zone"><img src="img/desktop_analytics_2.png" alt=""></div>
-          <div class="box zone"><img src="img/server_safe_2.png" alt=""></div>
+        </div>
+        <div class="box2 second-column" id="first-row">
+          <h1>Hétfő</h1>
+        </div>
+        <div class="box3 third-column" id="first-row">
+          <h1>Kedd</h1>
+        </div>
+        <div class="box4 fourth-column" id="first-row">
+          <h1>Szerda</h1>
+        </div>
+        <div class="box5 fifth-column" id="first-row">
+          <h1>Csütörtök</h1>
+        </div>
+        <div class="box6 sixth-column" id="first-row">
+          <h1>Péntek</h1>
+        </div>
 
+        <div class="box7 first-column" id="second-row">
+          <h1>8:00</h1>
+        </div>
+        <div class="box8 second-column" id="second-row">
 
-  </div>
+        </div>
+        <div class="box9 third-column" id="second-row">
 
-  <div class="zone yellow">Footer</div>
-</body>
+        </div>
+        <div class="box10 fourth-column" id="second-row">
+          <h1 class="box10">Matematika statisztika Ea+Gy
+            <p class = "box10-tanar">Tamás Ambrus</p>
+          </h1>
+        </div>
+        <div class="box11 fifth-column" id="second-row">
+          <h1></h1>
+        </div>
+
+        <div class="box12 sixth-column" id="second-row">
+          <div class="vertical-line">
+          <h1 id = "box12-fst-subject">Big Data architechtúrák
+          </h1>
+          <p class ="box12-left-add-information">Gombos Gergő</p>
+          <h1 id = "box12-snd-subject">Mély neuronhálók</h1>
+          <p class ="box12-right-add-information">Varga Viktor</p>
+          </div>
+        </div>
+
+        <div class="box13 first-column" id="third-row">
+          <h1>9:00</h1>
+        </div>
+        <div class="box14 second-column" id="third-row">
+          <h1>Matematika statisztika Ea+Gy
+            <p class = "box14-tanar">Dr. Zempléni András</p>
+          </h1>
+        </div>
+        <div class="box15 third-column" id="third-row">
+
+        </div>
+        <!--
+
+        <div class="box16 fourth-column">
+          <h1>Szerda</h1>
+        </div>
+
+        -->
+        <div class="box17 fifth-column" id="third-row">
+
+        </div>
+        <div class="box18 sixth-column" id="third-row">
+
+        </div>
+
+        <div class="box19 first-column" id="fourth-row">
+          <h1>10:00</h1>
+        </div>
+        <div class="box20 second-column" id="fourth-row">
+          <h1>Telekommunikációs hálózatok Gy
+          <p class = "box20-tanar">Kecskeméti Károly</p>
+          </h1>
+        </div>
+        <div class="box21 third-column" id="fourth-row">
+
+        </div>
+        <div class="box22 fourth-column" id="fourth-row">
+          <h1>Telekommunikációs hálózatok Ea
+          <p class="box22-tanar">Laki Sándor</p>
+          </h1>
+        </div>
+        <div class="box23 fifth-column" id="fourth-row">
+          <h1>Analízis alkalmazásai Ea
+          <p class="box23-tanar">Dr. Simon Péter</p>
+          </h1>
+
+        </div>
+        <div class="box24 sixth-column" id="fourth-row">
+
+        </div>
+
+        <div class="box25 first-column" id="fifth-row">
+          <h1>11:00</h1>
+        </div>
+        <!--
+        <div class="box26 second-column" id="fifth-row">
+          <h1>Hétfő</h1>
+        </div>
+        -->
+        <div class="box27 third-column" id="fifth-row">
+
+        </div>
+        <!--
+        <div class="box28 fourth-column" id="fifth-row">
+          <h1>Szerda</h1>
+        </div>
+        -->
+        <!--
+        <div class="box29 fifth-column" id="fifth-row">
+          <h1>Csütörtök</h1>
+        </div>
+        -->
+        <div class="box30 sixth-column" id="fifth-row">
+
+        </div>
+
+        <div class="box31 first-column" id="sixth-row">
+          <h1>12:00</h1>
+        </div>
+        <div class="box32 second-column" id="sixth-row">
+          <h1>Diszkrét matematikai modellek és alkalmazásai
+          <p class="box32-tanar">Gyarmati Máté</p>
+          </h1>
+        </div>
+        <div class="box33 third-column" id="sixth-row">
+          <h1>Big Data architechtúrák és elemző módszerek
+          <p class="box33-tanar">Gombos Gergő</p>
+          </h1>
+        </div>
+        <div class="box34 fourth-column" id="sixth-row">
+
+        </div>
+        <div class="box35 fifth-column" id="sixth-row">
+          <h1>M.I
+          <p class ="box35-tanar">Varga Henrik</p>
+          </h1>
+        </div>
+        <div class="box36 sixth-column" id="sixth-row">
+          <h1>Oktatás
+          <p class="box36-tanar">Varga Henrik</p>
+          </h1>
+        </div>
+
+        <div class="box37 first-column" id="seventh-row">
+          <h1>13:00</h1>
+        </div>
+        <!--
+        <div class="box38 second-column" id="seventh-row">
+          <h1>Hétfő</h1>
+        </div>
+        -->
+        <!--
+        <div class="box39 third-column" id="seventh-row">
+          <h1>Kedd</h1>
+        </div>
+        -->
+        <div class="box40 fourth-column" id="seventh-row">
+          <h1>Konkurens programozás Ea+Gy
+          <p class="box40-tanar">Dr. Kozsik Tamás</p>
+          </h1>
+        </div>
+        <!--
+        <div class="box41 fifth-column" id="seventh-row">
+          <h1>Csütörtök</h1>
+        </div>
+        -->
+        <!--
+        <div class="box42 sixth-column" id="seventh-row">
+          <h1>Péntek</h1>
+        </div>
+        -->
+        <div class="box43 first-column" id="eighth-row">
+          <h1>14:00</h1>
+        </div>
+        <div class="box44 second-column" id="eighth-row">
+
+        </div>
+        <div class="box45 third-column" id="eighth-row">
+
+        </div>
+        <!--
+        <div class="box46 fourth-column" id="eighth-row">
+          <h1>Szerda</h1>
+        </div>
+        -->
+        <div class="box47 fifth-column" id="eighth-row">
+
+        </div>
+        <div class="box48 sixth-column" id="eighth-row">
+
+        </div>
+
+        <div class="box49 first-column" id="ninth-row">
+          <h1>15:00</h1>
+        </div>
+        <div class="box50 second-column" id="ninth-row">
+
+        </div>
+        <div class="box51 third-column" id="ninth-row">
+
+        </div>
+        <div class="box52 fourth-column" id="ninth-row">
+
+        </div>
+        <div class="box53 fifth-column" id="ninth-row">
+
+        </div>
+        <div class="box54 sixth-column" id="ninth-row">
+
+        </div>
+
+        <div class="box55 first-column" id="tenth-row">
+          <h1>16:00</h1>
+        </div>
+        <div class="box56 second-column" id="tenth-row">
+
+        </div>
+        <div class="box57 third-column" id="tenth-row">
+
+        </div>
+        <div class="box58 fourth-column" id="tenth-row">
+
+        </div>
+        <div class="box59 fifth-column" id="tenth-row">
+          <h1>Analízis alkalmazásai Gy
+          <p class="box59-tanar">Chripkó Ágnes</p>
+          </h1>
+        </div>
+        <div class="box60 sixth-column" id="tenth-row">
+
+        </div>
+
+        <div class="box61 first-column" id="eleventh-row">
+          <h1>17:00</h1>
+        </div>
+        <div class="box62 second-column" id="eleventh-row">
+
+        </div>
+        <div class="box63 third-column" id="eleventh-row">
+
+        </div>
+        <div class="box64 fourth-column" id="eleventh-row">
+
+        </div>
+        <!--
+        <div class="box65 fifth-column" id="eleventh-row">
+          <h1>Csütörtök</h1>
+        </div>
+        -->
+        <div class="box66 sixth-column" id="eleventh-row">
+
+        </div>
+
+    </section>
+
+  </body>
 </html>
