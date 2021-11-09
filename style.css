@@ -43,6 +43,8 @@ li {
   padding: 40px;
 }
 
+
 li:hover {
+  transform: scale(1.07);
   color: #ffa5d8;
 }
