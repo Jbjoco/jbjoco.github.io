@@ -39,6 +39,10 @@ ul{
 li {
   text-shadow: 1px 0px 1px black;
   font-size: 1.5rem;
-  color: #ffa5d8;
+  color: white;
   padding: 40px;
+}
+
+li:hover {
+  color: #ffa5d8;
 }
