@@ -193,6 +193,9 @@ h2 {
   border-radius: 120px;
 }
 
+/*
+mobile 500px
+*/
 
 @media only screen and (max-width:500px) {
 
@@ -323,6 +326,418 @@ h2 {
     border-radius: 120px;
     height: 170px;
     width: 170px;
+  }
+
+  .pizza02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+  }
+
+  .pizza02-inf {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+  }
+
+  .pizza02-inf > h1 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 1px 4px #4D2818;
+  }
+
+  .pizza02-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .pizza02-img > img {
+    display: flex;
+    border-radius: 120px;
+    height: 170px;
+    width: 170px;
+  }
+
+  .pizza03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .pizza03-inf {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+  }
+
+  .pizza03-inf > h1 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 1px 4px #4D2818;
+  }
+
+  .pizza03-img {
+   display: flex;
+   align-items: center;
+  }
+
+  .pizza03-img > img {
+    display: flex;
+    border-radius: 120px;
+    height: 170px;
+    width: 170px;
+  }
+}
+
+/*
+mobile 460px
+*/
+
+@media only screen and (max-width:460px) {
+
+  main {
+    background: rgb(209,149,52);
+    background: linear-gradient(111deg, rgba(209,149,52,1) 14%, rgba(176,50,50,1) 80%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    content: '';
+    right: 0;
+    left: 0;
+    height: 1700px;
+    overflow: hidden;
+  }
+
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 360px;
+  }
+
+  .title-container {
+    display: flex;
+    height: 100px;
+    width: 310px;
+  }
+
+  .main-title-form {
+    color: #F76B42;
+    font-size: 18px;
+    text-shadow: -3px -2px 5px #6E301D;
+    display: flex;
+    justify-content: flex-start;
+    width: 80px;
+
+  }
+
+  .logo-img {
+    display: flex;
+    width: 350px;
+    height: 185px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-img > img {
+    display: flex;
+    height: 120px;
+    width: 120px;
+  }
+
+  img {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+
+  .title-text {
+    color: white;
+    display: flex;
+    font-size: 18px;
+    text-shadow: 2px 1px 4px #4D2818;
+    width: 240px;
+  }
+
+  .order-box {
+    height: 1600px;
+  }
+
+  .pizza01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .pizza01-inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 400px;
+  }
+
+  .pizza01-inf > h1 {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 1px 4px #4D2818;
+  }
+
+  .pizza01-info {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 400px;
+    color: #e67747;
+  }
+
+  .pizza01-info > img {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+  .pizza01-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .pizza01-img > img {
+    display: flex;
+    border-radius: 120px;
+    height: 120px;
+    width: 120px;
+  }
+
+  .pizza02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+  }
+
+  .pizza02-inf {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+  }
+
+  .pizza02-inf > h1 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 1px 4px #4D2818;
+  }
+
+  .pizza02-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .pizza02-img > img {
+    display: flex;
+    border-radius: 120px;
+    height: 170px;
+    width: 170px;
+  }
+
+  .pizza03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .pizza03-inf {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+  }
+
+  .pizza03-inf > h1 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 1px 4px #4D2818;
+  }
+
+  .pizza03-img {
+   display: flex;
+   align-items: center;
+  }
+
+  .pizza03-img > img {
+    display: flex;
+    border-radius: 120px;
+    height: 170px;
+    width: 170px;
+  }
+}
+
+/*
+mobile 400px
+*/
+
+@media only screen and (max-width:400px) {
+
+  main {
+    background: rgb(209,149,52);
+    background: linear-gradient(111deg, rgba(209,149,52,1) 14%, rgba(176,50,50,1) 80%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    content: '';
+    right: 0;
+    left: 0;
+    height: 1700px;
+    overflow: hidden;
+  }
+
+  .hero-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 360px;
+  }
+
+  .title-container {
+    display: flex;
+    height: 100px;
+    width: 310px;
+  }
+
+  .main-title-form {
+    color: #F76B42;
+    font-size: 18px;
+    text-shadow: -3px -2px 5px #6E301D;
+    display: flex;
+    justify-content: flex-start;
+    width: 80px;
+
+  }
+
+  .logo-img {
+    display: flex;
+    width: 350px;
+    height: 185px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-img > img {
+    display: flex;
+    height: 120px;
+    width: 120px;
+  }
+
+  img {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+
+  .title-text {
+    color: white;
+    display: flex;
+    font-size: 18px;
+    text-shadow: 2px 1px 4px #4D2818;
+    width: 240px;
+  }
+
+  .order-box {
+    height: 1600px;
+  }
+
+  .pizza01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .pizza01-inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 400px;
+  }
+
+  .pizza01-inf > h1 {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 1px 4px #4D2818;
+  }
+
+  .pizza01-info {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 400px;
+    color: #e67747;
+  }
+
+  .pizza01-info > img {
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+  .pizza01-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .pizza01-img > img {
+    display: flex;
+    border-radius: 120px;
+    height: 120px;
+    width: 120px;
   }
 
   .pizza02{
