@@ -538,22 +538,22 @@ mobile 460px
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 360px;
   }
 
   .pizza02-inf {
     display: flex;
     justify-content: center;
     width: 400px;
-    height: 100px;
+    height: 80px;
     align-items: center;
   }
 
   .pizza02-inf > h1 {
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     text-shadow: 2px 1px 4px #4D2818;
   }
 
@@ -565,30 +565,30 @@ mobile 460px
   .pizza02-img > img {
     display: flex;
     border-radius: 120px;
-    height: 170px;
-    width: 170px;
+    height: 120px;
+    width: 120px;
   }
 
   .pizza03 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .pizza03-inf {
     display: flex;
     justify-content: center;
     width: 400px;
-    height: 100px;
+    height: 80px;
     align-items: center;
   }
 
   .pizza03-inf > h1 {
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     text-shadow: 2px 1px 4px #4D2818;
   }
 
@@ -600,8 +600,8 @@ mobile 460px
   .pizza03-img > img {
     display: flex;
     border-radius: 120px;
-    height: 170px;
-    width: 170px;
+    height: 120px;
+    width: 120px;
   }
 }
 
